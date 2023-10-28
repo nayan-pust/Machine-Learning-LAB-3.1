@@ -74,7 +74,7 @@ plt.legend()
 # Show the plot
 plt.show()
 ```
-# ```**Final CODE**```
+# ```Final CODE```
 
 ```ruby
 import pandas as pd
