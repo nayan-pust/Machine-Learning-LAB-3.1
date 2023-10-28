@@ -1,14 +1,7 @@
 # Machine-Learning-LAB-3.1
 
-# Simple Linear Regression in Machine Learning
-Simple Linear Regression is a type of Regression algorithms that models the relationship between a dependent variable and a single independent variable. The relationship shown by a Simple Linear Regression model is linear or a sloped straight line, hence it is called Simple Linear Regression.
-
-The key point in Simple Linear Regression is that the dependent variable must be a continuous/real value. However, the independent variable can be measured on continuous or categorical values.
-
-Step-1: Data Pre-processing
-
-The first step for creating the Simple Linear Regression model is data pre-processing.
-We have already done it earlier in this tutorial. But there will be some changes, which are given in the below steps:
+# Project Name :
+**# Simple line Regression and Prediction for future Work**
 
 # First, we will import the three important libraries, which will help us for loading the dataset, plotting the graphs, and creating the Simple Linear Regression model.
 ```ruby
