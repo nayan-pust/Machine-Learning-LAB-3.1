@@ -10,13 +10,13 @@ Step-1: Data Pre-processing
 The first step for creating the Simple Linear Regression model is data pre-processing.
 We have already done it earlier in this tutorial. But there will be some changes, which are given in the below steps:
 
-# Step 1 : First, we will import the three important libraries, which will help us for loading the dataset, plotting the graphs, and creating the Simple Linear Regression model.
+# First, we will import the three important libraries, which will help us for loading the dataset, plotting the graphs, and creating the Simple Linear Regression model.
 ```ruby
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 ```
-# Step 2: SetData Set or CSV file Import
+# SetData Set or CSV file Import
 ```ruby
 # Read data from CSV file using pandas
 #df = pd.read_csv('G:/Salary_data.csv')  # Replace 'your_data.csv' with your actual CSV file name
@@ -29,14 +29,8 @@ x = np.array([10, 11, 12, 13, 14, 15, 16, 17, 18, 19])
 # Corresponding output data (target)
 y = np.array([11, 13, 12, 15, 17, 18, 18, 19, 20, 22])
 ```
-# Step 3 : After that, we need to extract the dependent and independent variables from the given dataset. The independent variable is years of experience, and the dependent variable is salary. Below is code for it:
-```ruby
 
-x= data_set.iloc[:, :-1].values  
-y= data_set.iloc[:, 1].values
-
-```
-# Step -5 :Calculate Mean Section and Size
+# Calculate Mean Section and Size
 
 ```ruby 
 mean_x = np.mean(x)
@@ -47,7 +41,7 @@ siz = np.size(x)
 print(siz)
 ```
 
-# Step 5: Line Regreetion Straight Line Equation thats Can you predict any Issues
+# Line Regreetion Straight Line Equation thats Can you predict any Issues
 # Equations : # Calculate slope b and y-intercept a using the formula
 # b = Σ(xi*yi)-n*(mean_x)(mean-y)/Σ(xi*x1)-n*(mean_x)^2
 # a = ȳ - b * x̄
@@ -64,7 +58,7 @@ print(denominator)
 
 predicted_y = slope * x + intercept
 ```
-#  Prediction of test set result display the Output 
+# Prediction of test set result display the Output 
 
 ```ruby
 # Plot the original data points
