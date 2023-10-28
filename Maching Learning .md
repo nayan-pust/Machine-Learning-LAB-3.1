@@ -39,11 +39,12 @@ siz = np.size(x)
 print(siz)
 ```
 
-# Line Regreetion Straight Line Equation thats Can you predict any Issues
-# Equations : # Calculate slope b and y-intercept a using the formula
-# b = Σ(xi*yi)-n*(mean_x)(mean-y)/Σ(xi*x1)-n*(mean_x)^2
-# a = ȳ - b * x̄
-# Predict y values using the linear regression equation: y = a + bx
+# Line Regretion Straight Line Equation thats Can you predict any Issues
+
+# ```Equations :``` # Calculate slope b and y-intercept a using the formula
+# ```b = Σ(xi*yi)-n*(mean_x)(mean-y)/Σ(xi*x1)-n*(mean_x)^2```
+# ```a = ȳ - b * x̄```
+# ```Predict y values using the linear regression equation: y = a + bx```
 
 ```ruby
 numerator = np.sum(x*y) - siz*mean_x*mean_y
