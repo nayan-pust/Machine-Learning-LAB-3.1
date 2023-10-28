@@ -3,7 +3,7 @@
 # Name : Naimur Rahman
 # Dept. of ICE(PUST)
 
-# programming Languages : ```ruby Python ```
+# programming Languages : ``` Python ```
 
 # Project Name : Simple line Regression and Prediction for future Work
 
