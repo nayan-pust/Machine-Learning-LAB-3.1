@@ -1,7 +1,7 @@
 # Machine-Learning-LAB-3.1
 
-# Name : Naimur Rahman
-# Dept. of ICE(PUST)
+# ```Name : Naimur Rahman```
+# ```Dept. of ICE(PUST)```
 
 # programming Languages : ``` Python ```
 
