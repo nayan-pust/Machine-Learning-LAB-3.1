@@ -5,7 +5,7 @@
 
 # programming Languages : ``` Python ```
 
-# Project Name : Simple line Regression and Prediction for future Work
+# ```Project Name :``` Simple line Regression and Prediction for future Work
 
 
 # First, we will import the three important libraries, which will help us for loading the dataset, plotting the graphs, and creating the Simple Linear Regression model.
